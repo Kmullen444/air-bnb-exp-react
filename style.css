@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    background: #F55A5A;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.header--img {
+    width: 24px;
+    padding: .5rem 0;
+}
+
+.header--title {
+    color: #fff;
+    font-weight: 400;
+    font-size: .7em;
+    padding-top: 1.2em;
+    padding-left: .5em;
+}
+
+.card {
+    display: flex;
+    margin: 1.5rem 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card--container {
+    max-width: 70%;
+    margin-left: 1.5rem;
+}
+
+.card--img {
+    max-width: 20%;
+    border-radius: .4em;
+    height: 40vh;
+}
+
+.card--location {
+    display: flex;
+    width: 80%;
+    gap: .5rem;
+}
+
+.card--location-contaier > img {
+    height: 10px;
+    width: 7px;
+
+}
+
+.card--location-contaier {
+    display: flex;
+    gap: .3rem;
+    margin-top: 1.7rem;
+}
+
+.card--location-link {
+    font-size: .7rem;
+    line-height: .8rem;
+    text-decoration-line: underline;
+    color: #918E9B;
+    align-self: flex-end;
+}
+
+.card--location-name {
+    font-size: .7rem;
+    line-height: .8rem;
+    letter-spacing: .17em;
+}
+
+.card--title {
+    font-size: 1.7rem;
+    margin: 0;
+    margin-top: .5rem;;
+}
+
+.card--date {
+    margin-top: 1rem;
+    font-size: .7rem;
+}
+
+.card--desc {
+    font-size: .7rem;
+    width: 70%;
+    margin-top: .5rem;
+}
